@@ -7,21 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120E02922A1600A9007E2C06 /* Gelasio-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 120E02912A15FFA7007E2C06 /* Gelasio-Italic.ttf */; };
+		120E02932A1600AC007E2C06 /* Gelasio-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 120E02902A15FFA6007E2C06 /* Gelasio-Regular.ttf */; };
+		120E02952A1602D1007E2C06 /* Gelasio-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 120E02942A1602D1007E2C06 /* Gelasio-BoldItalic.ttf */; };
+		12139F8C2A10A46100F6B3CE /* DateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12139F8B2A10A46100F6B3CE /* DateFunctions.swift */; };
+		122481CC2A0E1E0600EC7DFB /* NakaiyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122481CB2A0E1E0600EC7DFB /* NakaiyList.swift */; };
+		122481CE2A0E20D400EC7DFB /* NakaiyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122481CD2A0E20D400EC7DFB /* NakaiyDetail.swift */; };
+		122481D12A0E310C00EC7DFB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 122481D32A0E310C00EC7DFB /* Localizable.strings */; };
+		122481D82A0F782A00EC7DFB /* NakaiyWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122481D72A0F782A00EC7DFB /* NakaiyWheel.swift */; };
+		125387192A38870200001949 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125386E62A38771D00001949 /* WidgetKit.framework */; };
+		1253871A2A38870200001949 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125386E82A38771D00001949 /* SwiftUI.framework */; };
+		1253871D2A38870200001949 /* Nakaiy_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253871C2A38870200001949 /* Nakaiy_WidgetBundle.swift */; };
+		1253871F2A38870200001949 /* Nakaiy_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253871E2A38870200001949 /* Nakaiy_Widget.swift */; };
+		125387212A38870400001949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125387202A38870400001949 /* Assets.xcassets */; };
+		125387252A38870400001949 /* Nakaiy WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 125387182A38870200001949 /* Nakaiy WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1253872C2A38894200001949 /* NakaiyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253872B2A38894200001949 /* NakaiyEntry.swift */; };
+		125387312A388EDD00001949 /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125387302A388EDD00001949 /* MediumView.swift */; };
+		125387332A388EED00001949 /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125387322A388EED00001949 /* SmallView.swift */; };
+		125387342A38CFD900001949 /* Nakaiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF14C72A0CDFDB00BAA229 /* Nakaiy.swift */; };
+		125387352A38CFDE00001949 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF14C92A0CE1C300BAA229 /* ModelData.swift */; };
+		125387362A38CFFF00001949 /* DateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12139F8B2A10A46100F6B3CE /* DateFunctions.swift */; };
+		125387372A38D23900001949 /* NAKAIYTBLeng.json in Resources */ = {isa = PBXBuildFile; fileRef = 129B72D92A1247CB006A457A /* NAKAIYTBLeng.json */; };
+		125387382A38D26700001949 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 122481D32A0E310C00EC7DFB /* Localizable.strings */; };
+		125387392A38D2DD00001949 /* NakaiyWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122481D72A0F782A00EC7DFB /* NakaiyWheel.swift */; };
+		1253873A2A38D39D00001949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CF14B92A0BF96100BAA229 /* Assets.xcassets */; };
+		1279E58F2A1369D300FEF93C /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1279E58E2A1369D200FEF93C /* IntroView.swift */; };
+		129B72D72A123F42006A457A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129B72D62A123F42006A457A /* LaunchScreen.storyboard */; };
+		129B72DA2A1247CB006A457A /* NAKAIYTBLeng.json in Resources */ = {isa = PBXBuildFile; fileRef = 129B72D92A1247CB006A457A /* NAKAIYTBLeng.json */; };
 		12CF14B62A0BF95F00BAA229 /* Nakaiy_NeviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF14B52A0BF95F00BAA229 /* Nakaiy_NeviApp.swift */; };
 		12CF14B82A0BF95F00BAA229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF14B72A0BF95F00BAA229 /* ContentView.swift */; };
 		12CF14BA2A0BF96100BAA229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CF14B92A0BF96100BAA229 /* Assets.xcassets */; };
 		12CF14BD2A0BF96100BAA229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CF14BC2A0BF96100BAA229 /* Preview Assets.xcassets */; };
+		12CF14C62A0CDF9D00BAA229 /* NAKAIYTBL.json in Resources */ = {isa = PBXBuildFile; fileRef = 12CF14C52A0CDF9D00BAA229 /* NAKAIYTBL.json */; };
+		12CF14C82A0CDFDB00BAA229 /* Nakaiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF14C72A0CDFDB00BAA229 /* Nakaiy.swift */; };
+		12CF14CA2A0CE1C300BAA229 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF14C92A0CE1C300BAA229 /* ModelData.swift */; };
+		12CF14CE2A0CE54600BAA229 /* NakaiyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF14CD2A0CE54600BAA229 /* NakaiyRow.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		125387232A38870400001949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12CF14AA2A0BF95F00BAA229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 125387172A38870200001949;
+			remoteInfo = "Nakaiy WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		125386FD2A38771F00001949 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				125387252A38870400001949 /* Nakaiy WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		120E02902A15FFA6007E2C06 /* Gelasio-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-Regular.ttf"; sourceTree = "<group>"; };
+		120E02912A15FFA7007E2C06 /* Gelasio-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-Italic.ttf"; sourceTree = "<group>"; };
+		120E02942A1602D1007E2C06 /* Gelasio-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-BoldItalic.ttf"; sourceTree = "<group>"; };
+		12139F8B2A10A46100F6B3CE /* DateFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFunctions.swift; sourceTree = "<group>"; };
+		122481CB2A0E1E0600EC7DFB /* NakaiyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NakaiyList.swift; sourceTree = "<group>"; };
+		122481CD2A0E20D400EC7DFB /* NakaiyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NakaiyDetail.swift; sourceTree = "<group>"; };
+		122481D22A0E310C00EC7DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		122481D72A0F782A00EC7DFB /* NakaiyWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NakaiyWheel.swift; sourceTree = "<group>"; };
+		125386E62A38771D00001949 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		125386E82A38771D00001949 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		125387182A38870200001949 /* Nakaiy WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Nakaiy WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1253871C2A38870200001949 /* Nakaiy_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nakaiy_WidgetBundle.swift; sourceTree = "<group>"; };
+		1253871E2A38870200001949 /* Nakaiy_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nakaiy_Widget.swift; sourceTree = "<group>"; };
+		125387202A38870400001949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		125387222A38870400001949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1253872B2A38894200001949 /* NakaiyEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NakaiyEntry.swift; sourceTree = "<group>"; };
+		125387302A388EDD00001949 /* MediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumView.swift; sourceTree = "<group>"; };
+		125387322A388EED00001949 /* SmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallView.swift; sourceTree = "<group>"; };
+		1279E58E2A1369D200FEF93C /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		129B72D62A123F42006A457A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		129B72D82A12407E006A457A /* Nakaiy-Nevi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Nakaiy-Nevi-Info.plist"; sourceTree = SOURCE_ROOT; };
+		129B72D92A1247CB006A457A /* NAKAIYTBLeng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NAKAIYTBLeng.json; sourceTree = "<group>"; };
 		12CF14B22A0BF95F00BAA229 /* Nakaiy Nevi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nakaiy Nevi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CF14B52A0BF95F00BAA229 /* Nakaiy_NeviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nakaiy_NeviApp.swift; sourceTree = "<group>"; };
 		12CF14B72A0BF95F00BAA229 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12CF14B92A0BF96100BAA229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12CF14BC2A0BF96100BAA229 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12CF14C52A0CDF9D00BAA229 /* NAKAIYTBL.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NAKAIYTBL.json; sourceTree = "<group>"; };
+		12CF14C72A0CDFDB00BAA229 /* Nakaiy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nakaiy.swift; sourceTree = "<group>"; };
+		12CF14C92A0CE1C300BAA229 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		12CF14CD2A0CE54600BAA229 /* NakaiyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NakaiyRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		125387152A38870200001949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253871A2A38870200001949 /* SwiftUI.framework in Frameworks */,
+				125387192A38870200001949 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12CF14AF2A0BF95F00BAA229 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +122,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120E028F2A15FF70007E2C06 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				120E02912A15FFA7007E2C06 /* Gelasio-Italic.ttf */,
+				120E02942A1602D1007E2C06 /* Gelasio-BoldItalic.ttf */,
+				120E02902A15FFA6007E2C06 /* Gelasio-Regular.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		122481D62A0E9A0F00EC7DFB /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				122481D72A0F782A00EC7DFB /* NakaiyWheel.swift */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		125386E52A38771D00001949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				125386E62A38771D00001949 /* WidgetKit.framework */,
+				125386E82A38771D00001949 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1253871B2A38870200001949 /* Nakaiy Widget */ = {
+			isa = PBXGroup;
+			children = (
+				1253872F2A388EB000001949 /* Views */,
+				1253871C2A38870200001949 /* Nakaiy_WidgetBundle.swift */,
+				1253871E2A38870200001949 /* Nakaiy_Widget.swift */,
+				1253872B2A38894200001949 /* NakaiyEntry.swift */,
+				125387202A38870400001949 /* Assets.xcassets */,
+				125387222A38870400001949 /* Info.plist */,
+			);
+			path = "Nakaiy Widget";
+			sourceTree = "<group>";
+		};
+		1253872F2A388EB000001949 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				125387302A388EDD00001949 /* MediumView.swift */,
+				125387322A388EED00001949 /* SmallView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		12CF14A92A0BF95F00BAA229 = {
 			isa = PBXGroup;
 			children = (
 				12CF14B42A0BF95F00BAA229 /* Nakaiy Nevi */,
+				1253871B2A38870200001949 /* Nakaiy Widget */,
+				125386E52A38771D00001949 /* Frameworks */,
 				12CF14B32A0BF95F00BAA229 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				12CF14B22A0BF95F00BAA229 /* Nakaiy Nevi.app */,
+				125387182A38870200001949 /* Nakaiy WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +193,17 @@
 		12CF14B42A0BF95F00BAA229 /* Nakaiy Nevi */ = {
 			isa = PBXGroup;
 			children = (
+				120E028F2A15FF70007E2C06 /* fonts */,
+				129B72D82A12407E006A457A /* Nakaiy-Nevi-Info.plist */,
 				12CF14B52A0BF95F00BAA229 /* Nakaiy_NeviApp.swift */,
-				12CF14B72A0BF95F00BAA229 /* ContentView.swift */,
+				122481D62A0E9A0F00EC7DFB /* Graphics */,
+				12CF14CC2A0CE4BA00BAA229 /* Views */,
+				12CF14CB2A0CE4A100BAA229 /* Models */,
 				12CF14B92A0BF96100BAA229 /* Assets.xcassets */,
+				122481D32A0E310C00EC7DFB /* Localizable.strings */,
 				12CF14BB2A0BF96100BAA229 /* Preview Content */,
+				129B72D62A123F42006A457A /* LaunchScreen.storyboard */,
+				129B72D92A1247CB006A457A /* NAKAIYTBLeng.json */,
 			);
 			path = "Nakaiy Nevi";
 			sourceTree = "<group>";
@@ -62,14 +211,54 @@
 		12CF14BB2A0BF96100BAA229 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				12CF14C52A0CDF9D00BAA229 /* NAKAIYTBL.json */,
 				12CF14BC2A0BF96100BAA229 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		12CF14CB2A0CE4A100BAA229 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12CF14C72A0CDFDB00BAA229 /* Nakaiy.swift */,
+				12CF14C92A0CE1C300BAA229 /* ModelData.swift */,
+				12139F8B2A10A46100F6B3CE /* DateFunctions.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		12CF14CC2A0CE4BA00BAA229 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12CF14B72A0BF95F00BAA229 /* ContentView.swift */,
+				12CF14CD2A0CE54600BAA229 /* NakaiyRow.swift */,
+				122481CB2A0E1E0600EC7DFB /* NakaiyList.swift */,
+				122481CD2A0E20D400EC7DFB /* NakaiyDetail.swift */,
+				1279E58E2A1369D200FEF93C /* IntroView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		125387172A38870200001949 /* Nakaiy WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125387262A38870400001949 /* Build configuration list for PBXNativeTarget "Nakaiy WidgetExtension" */;
+			buildPhases = (
+				125387142A38870200001949 /* Sources */,
+				125387152A38870200001949 /* Frameworks */,
+				125387162A38870200001949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nakaiy WidgetExtension";
+			productName = "Nakaiy WidgetExtension";
+			productReference = 125387182A38870200001949 /* Nakaiy WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		12CF14B12A0BF95F00BAA229 /* Nakaiy Nevi */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12CF14C02A0BF96100BAA229 /* Build configuration list for PBXNativeTarget "Nakaiy Nevi" */;
@@ -77,10 +266,12 @@
 				12CF14AE2A0BF95F00BAA229 /* Sources */,
 				12CF14AF2A0BF95F00BAA229 /* Frameworks */,
 				12CF14B02A0BF95F00BAA229 /* Resources */,
+				125386FD2A38771F00001949 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				125387242A38870400001949 /* PBXTargetDependency */,
 			);
 			name = "Nakaiy Nevi";
 			productName = "Nakaiy Nevi";
@@ -97,6 +288,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					125387172A38870200001949 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					12CF14B12A0BF95F00BAA229 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -109,6 +303,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				"dv-MV",
 			);
 			mainGroup = 12CF14A92A0BF95F00BAA229;
 			productRefGroup = 12CF14B32A0BF95F00BAA229 /* Products */;
@@ -116,39 +312,160 @@
 			projectRoot = "";
 			targets = (
 				12CF14B12A0BF95F00BAA229 /* Nakaiy Nevi */,
+				125387172A38870200001949 /* Nakaiy WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		125387162A38870200001949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125387372A38D23900001949 /* NAKAIYTBLeng.json in Resources */,
+				125387382A38D26700001949 /* Localizable.strings in Resources */,
+				1253873A2A38D39D00001949 /* Assets.xcassets in Resources */,
+				125387212A38870400001949 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12CF14B02A0BF95F00BAA229 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129B72DA2A1247CB006A457A /* NAKAIYTBLeng.json in Resources */,
+				120E02952A1602D1007E2C06 /* Gelasio-BoldItalic.ttf in Resources */,
 				12CF14BD2A0BF96100BAA229 /* Preview Assets.xcassets in Resources */,
+				120E02932A1600AC007E2C06 /* Gelasio-Regular.ttf in Resources */,
+				122481D12A0E310C00EC7DFB /* Localizable.strings in Resources */,
 				12CF14BA2A0BF96100BAA229 /* Assets.xcassets in Resources */,
+				120E02922A1600A9007E2C06 /* Gelasio-Italic.ttf in Resources */,
+				129B72D72A123F42006A457A /* LaunchScreen.storyboard in Resources */,
+				12CF14C62A0CDF9D00BAA229 /* NAKAIYTBL.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		125387142A38870200001949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253872C2A38894200001949 /* NakaiyEntry.swift in Sources */,
+				125387312A388EDD00001949 /* MediumView.swift in Sources */,
+				125387352A38CFDE00001949 /* ModelData.swift in Sources */,
+				125387362A38CFFF00001949 /* DateFunctions.swift in Sources */,
+				125387392A38D2DD00001949 /* NakaiyWheel.swift in Sources */,
+				1253871F2A38870200001949 /* Nakaiy_Widget.swift in Sources */,
+				125387342A38CFD900001949 /* Nakaiy.swift in Sources */,
+				1253871D2A38870200001949 /* Nakaiy_WidgetBundle.swift in Sources */,
+				125387332A388EED00001949 /* SmallView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12CF14AE2A0BF95F00BAA229 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122481CC2A0E1E0600EC7DFB /* NakaiyList.swift in Sources */,
 				12CF14B82A0BF95F00BAA229 /* ContentView.swift in Sources */,
 				12CF14B62A0BF95F00BAA229 /* Nakaiy_NeviApp.swift in Sources */,
+				12139F8C2A10A46100F6B3CE /* DateFunctions.swift in Sources */,
+				12CF14CA2A0CE1C300BAA229 /* ModelData.swift in Sources */,
+				1279E58F2A1369D300FEF93C /* IntroView.swift in Sources */,
+				122481D82A0F782A00EC7DFB /* NakaiyWheel.swift in Sources */,
+				12CF14CE2A0CE54600BAA229 /* NakaiyRow.swift in Sources */,
+				122481CE2A0E20D400EC7DFB /* NakaiyDetail.swift in Sources */,
+				12CF14C82A0CDFDB00BAA229 /* Nakaiy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		125387242A38870400001949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 125387172A38870200001949 /* Nakaiy WidgetExtension */;
+			targetProxy = 125387232A38870400001949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		122481D32A0E310C00EC7DFB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122481D22A0E310C00EC7DFB /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		125387272A38870400001949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YS67DH6TT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nakaiy Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nakaiy Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nxtrs.Nakaiy-Nevi.Nakaiy-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		125387282A38870400001949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YS67DH6TT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nakaiy Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nakaiy Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nxtrs.Nakaiy-Nevi.Nakaiy-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		12CF14BE2A0BF96100BAA229 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -195,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -209,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -249,7 +567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -262,25 +580,38 @@
 		12CF14C12A0BF96100BAA229 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Nakaiy Nevi/Preview Content\"";
+				DEVELOPMENT_TEAM = YS67DH6TT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nakaiy-Nevi-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nakaiy Nevi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nxtrs.Nakaiy-Nevi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,25 +621,38 @@
 		12CF14C22A0BF96100BAA229 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Nakaiy Nevi/Preview Content\"";
+				DEVELOPMENT_TEAM = YS67DH6TT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nakaiy-Nevi-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nakaiy Nevi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nxtrs.Nakaiy-Nevi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,6 +662,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		125387262A38870400001949 /* Build configuration list for PBXNativeTarget "Nakaiy WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125387272A38870400001949 /* Debug */,
+				125387282A38870400001949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		12CF14AD2A0BF95F00BAA229 /* Build configuration list for PBXProject "Nakaiy Nevi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="cHo-lR-4t7">
+                                <rect key="frame" x="73" y="135" width="247" height="233"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="M6p-03-c8d"/>
+                                    <constraint firstAttribute="height" constant="233" id="UE3-b9-JW1"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w7a-0h-wcb">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" name="orangeBk"/>
+                        <constraints>
+                            <constraint firstItem="w7a-0h-wcb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JBZ-WA-5Dn"/>
+                            <constraint firstItem="w7a-0h-wcb" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="cOq-Gc-lbf"/>
+                            <constraint firstItem="w7a-0h-wcb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="eKx-Cf-kOL"/>
+                            <constraint firstItem="cHo-lR-4t7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oki-LV-qvH"/>
+                            <constraint firstItem="w7a-0h-wcb" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="rLa-kh-Daw"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="w7a-0h-wcb" secondAttribute="bottom" constant="730" id="sNh-k5-0XU"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="cHo-lR-4t7" secondAttribute="bottom" constant="450" id="tpA-oY-UhE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash" width="462" height="463"/>
+        <namedColor name="orangeBk">
+            <color red="0.99215686274509807" green="0.63921568627450975" blue="0.031372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
