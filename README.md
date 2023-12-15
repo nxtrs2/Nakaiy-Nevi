@@ -40,7 +40,7 @@ If you would like to contribute to Nakaiy Nevi iOS, please follow these steps:
 
 ## Credits
 
-- Original Nakaiy Nevi app by [Shahee Ilyas](link-to-original-repo)
+- Original Nakaiy Nevi app by [Shahee Ilyas](https://shaheeilyas.com)
 - iOS port by Simon Shareef (nxtrs2)
 
 ## License
