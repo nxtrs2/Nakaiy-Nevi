@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  Nakaiy Nevi
+
+  Created by Simon Shareef on 12/05/2023.
+  
+*/
+"db" = "NAKAIYTBLeng";
+"Weather" = "Weather";
+"Averages" = "Averages";
+"Fishing" = "Fishing";
+"Meaning" = "Meaning";
+"Asterism" = "Asterism";
+"TodayIs" = "Today is";
+"Seasons of Maldives" = "Seasons of Maldives";
+"an indigenous system" = "an indigenous Maldivian calendar system";
+"Introduction" = "Introduction";
+"IntroText" = "Tap into centuries old wisdom to gain deeper insight and discover weather patterns through the indigenous Nakaiy Calendar. Geo-specific to the Maldives, one of the most fragile environments on earth, at a time of shifting weather patterns on a global scale we can look and learn from the past to enable us to better prepare for the future.
+
+Use Nakaiy Nevi to easily check the current Nakaiy. Visually gauge the passage of time and position of current Nakaiy date, range and a short description of what to expect. More details for each Nakaiy are also available such as weather patterns, fishing, agricultural activities, meaning of the Nakaiy and average weather data for the period.
+
+Maldivians co-existing in relative harmony with their natural environment adapted to the workings of nature by devising and adopting ways to determine its changes and transformations. Nothing shows as clearly as this subtle and complex calendar of the Maldivians' profound practical knowledge of nature and their careful adaptation to their environment. Nakaiy also serves in determining seasons for fishing, planting and harvesting fields.
+
+Nakaiy is a calendar system, a derivative from the Indus Valley Civilization, based on observations of subtle changes in the weather. Each Nakaiy is a 13-14 day period each with their own characteristics and weather pattern, based on the positions of certain groups of stars (asterisms). The year is divided into twenty-seven Nakaiy which are grouped into two distinctive seasons: Iruvaa and Hulhangu. 
+
+Iruvaa (the North-East Monsoon) has nine Nakaiy and runs from December 10 to April 7. Iruvaa means \"easterly winds\", in reference to the winds which blow mainly from the East, though slightly deflected, during this season.
+
+Hulhangu (the South-West Monsoon) has eighteen Nakaiy and runs from April 8 to December 9. The word Hulhangu has its etymological root in the Sinhala word Hulanga meaning \"wind\" alluding to the fact that the Maldives usually experiences strong winds accompanied with stormy weather during this time.";
+
+"Quote" = "
+\"The future has an ancient heart\" - Carlo Levi";
+"Sources" = "Sources of information used in this app:
+- Vanavaru by Hassan Ahmed Maniku published 19 March 1989
+- Vonadhona Raajje (Rahvehi Kamuge Theyreyrai Dhivehin Part 1) by Ahmed Shafeeq published 1 January 1999";
+"Designed and Developed by" = "Designed and Developed by:";
+"Ported by" = "iPhone & iPad version by:";
+"Special Thanks" = "Special Thanks to:";
+"Date is in" = "Today's date is in Maldives time zone (GMT+5)";
