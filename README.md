@@ -19,7 +19,7 @@ To use Nakaiy Nevi on your iOS device, follow these steps:
 
 ## Requirements
 
-- iOS 15
+- iOS 16.4
 - Xcode 14
 
 ## Usage
