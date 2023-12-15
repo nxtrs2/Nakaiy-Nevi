@@ -1,7 +1,5 @@
 # Nakaiy Nevi iOS
 
-![Nakaiy Nevi Logo](link-to-logo.png)
-
 ## Overview
 
 This is the official iOS port of the Nakaiy Nevi app originally developed by Shahee Ilyas. "Nakaiy is a calendar system, a derivative from the Indus Valley Civilization, based on observations of subtle changes in the weather. Each Nakaiy is a 13-14 day period each with their own characteristics and weather pattern, based on the positions of certain groups of stars (asterisms). 
